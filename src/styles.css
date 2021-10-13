@@ -1,0 +1,104 @@
+#game {
+	position: relative;
+	display: flex;
+}
+
+#field {
+    width: 750px;
+    height: 900px;
+	background: url("img/terrain.png");
+	display: flex;
+	flex-wrap: wrap;
+	flex-shrink: 0;
+}
+
+#dialog > div:first-child {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+    margin: 10px;
+    width: 750px;
+    height: 553px;
+    padding: 100px;
+    background: url("img/foliant2.png") no-repeat;
+    box-sizing: border-box;
+	font-size: 18px;
+	z-index: 1;
+}
+
+#dialog > div > div {
+	width: 100%;
+}
+
+#dialog h2 {
+	width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#dialog input {
+	height: 40px;
+	padding-left: 8px;
+	flex-grow: 1;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+#dialog button {
+    height: 40px;
+	font-size: 16px;
+}
+
+.cell {
+	width: 150px;
+	height: 150px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.cell.golden-dragon {
+	background-image: url("img/golddragon.png");
+}
+.cell.black-dragon {
+	background-image: url("img/blackdragon.png");
+}
+.cell.fairy-dragon {
+	background-image: url("img/fairydragon.png");
+}
+.cell.rust-dragon {
+	background-image: url("img/rastdragon.png");
+}
+.cell.crystal-dragon {
+	background-image: url("img/crystaldragon.png");
+}
+.cell.azure-dragon {
+	background-image: url("img/azuredragon.png");
+}
+.cell.camp {
+	background-image: url("img/camp.png");
+}
+#knight {
+	position: absolute;
+	transition: top 0.25s, left 0.25s;
+	background-image: url("img/bknight_move.gif");
+}
+#knight:before, #knight:after {
+	display: block;
+	position: absolute;
+	background: white;
+	opacity: 0.1;
+}
+#knight:hover:before, #knight:hover:after {
+	content: "";
+}
+
+#knight:before {
+    height: 150px;
+    width: 450px;
+    left: -150px;
+}
+
+#knight:after {
+    height: 450px;
+    width: 150px;
+    top: -150px;
+}
