@@ -2,4 +2,4 @@
 
 A riddle game with dragons!
 
-v. 0.1 available in Russian.
+v0.1 riddles are available in Russian. Plan to translate.
