@@ -24,56 +24,56 @@ function Dragon(name, cssClass, riddles) {
 
 function GoldenDragon () {
 	var riddles = [
-		new Riddle ('Что бросают тогда, когда это необходимо, и поднимают тогда, когда это уже не нужно?', 'Якорь'),
-		new Riddle ('Оно всегда перед нами, но видеть его мы не можем. Что это?', 'Будущее'),
-		new Riddle ('Что человек носит два раза в жизни бесплатно, а за третий раз платит?', 'Зубы')
+		new Riddle ('What is thrown when it is necessary, and raised when it is no longer needed?', 'Anchor'),
+		new Riddle ('It is always in front of us, but we cannot see it. What is it?', 'Future'),
+		new Riddle ('What does a person wear twice in his life for free, and pay for the third time?', 'Teeth')
 	];
 	Dragon.call(this, 'Golden Dragon', 'golden-dragon', riddles);
 }
 
 function BlackDragon () {
 	var riddles = [
-		new Riddle ('Не отыскать её корней,<br/>Верхушка выше тополей.<br/>Всё круче вверх она идёт -<br/>А не растёт.', 'Гора'),
-		new Riddle ('Без голоса кричит,<br/>Без крыльев - а летает,<br/>И безо рта свистит,<br/>И без зубов кусает.', 'Ветер'),
-		new Riddle ('Её не увидать, в руках не подержать,<br/>Не услышать ухом, не почуять нюхом.<br/>Царит над небесами, таится в каждой яме.<br/>Она была в начале и будет после всех.<br/>Любую жизнь кончает и убивает смех.', 'Тьма'),
-		new Riddle ('Пожирает всё кругом:<br/>Зверя, птицу, лес и дом.<br/>Сталь сгрызёт, железо сгложет,<br/>Крепкий камень уничтожит,<br/>Власть его всего сильней,<br/>Даже власти королей.', 'Время')
+		new Riddle ('You cannot find its roots, <br/> The top is higher than the poplars. <br/> It goes up steeper - <br/> It does not grow.', 'Mountain'),
+		new Riddle ('She shouts without a voice, <br/> Without wings - but flies, <br/> And whistles without a mouth, <br/> And bites without teeth.', 'Wind'),
+		new Riddle ('You can\'t see it, can\'t hold it in your hands, <br/> Can\'t hear it with your ear, can\'t smell it. <br/> Reigns over the heavens, lurks in every hole. <br/> It was in the beginning and will be after all. <br/> It ends any life and kills laughter.', 'Darkness'),
+		new Riddle ('It devours everything around: <br/> The beast, bird, forest and house. <br/> Steel will gnaw, iron will eat away, <br/> A strong stone will destroy, <br/> His power is strongest, <br/> Even the power of kings ...', 'Time')
 	];
 	Dragon.call(this, 'Black Dragon', 'black-dragon', riddles);
 }
 
 function FairyDragon () {
 	var riddles = [
-		new Riddle ('Носик круглый, пятачком,<br/>Им в земле удобно рыться,<br/>Хвостик маленький крючком,<br/>Вместо туфелек - копытца.<br/>Трое их - и до чего же<br/>Братья дружные похожи.<br/>Отгадайте без подсказки,<br/>Кто герои этой сказки?', 'Три поросенка'),
-		new Riddle ('У отца был мальчик странный,<br/>Необычный - деревянный.<br/>Но любил папаша сына.<br/>Что за странный<br/>Человечек деревянный<br/>На земле и под водой<br/>Ищет ключик золотой?<br/>Всюду нос сует он длинный.<br/>Кто же это?', 'Буратино'),
-		new Riddle ('Лечит маленьких детей,<br/>Лечит птичек и зверей,<br/>Сквозь очки свои глядит<br/>Добрый доктор ...', 'Айболит'),
-		new Riddle ('Возле леса, на опушке<br/>Трое их живет в избушке.<br/>Там три стула и три кружки.<br/>Три кроватки, три подушки.<br/>Угадайте без подсказки,<br/>Кто герои этой сказки?', 'Три медведя')
+		new Riddle ('The nose is round, with a snout, <br/> It is convenient for them to dig in the ground, <br/> A small crochet tail, <br/> Instead of shoes - hooves. <br/> Three of them - and what are they <br/> Friendly brothers are similar . <br/> Guess without a clue, <br/> Who are the heroes of this tale?', 'Three piglings'),
+		new Riddle ('The father had a strange boy, <br/> Unusual - wooden. <br/> But father loved his son. <br/> What a strange <br/> Wooden man <br/> On the ground and under water <br/> Looking for is the golden key? <br/> Everywhere he sticks his nose long. <br/> Who is it?', 'Pinoccio'),
+		new Riddle ('Heals small children, <br/> Heals birds and animals, <br/> He looks through his glasses <br/> Good doctor ...', 'Aibolit'),
+		new Riddle ('Near the forest, at the edge of <br/> Three of them live in a hut. <br/> There are three chairs and three mugs. <br/> Three beds, three pillows. <br/> Guess without a hint, <br/> Who are the heroes this fairy tale?', 'Three bears')
 	];
 	Dragon.call(this, 'Fairy Dragon', 'fairy-dragon', riddles);
 }
 
 function RustDragon () {
 	var riddles = [
-		new Riddle ('Как называется боязнь прихода Санта-Клауса?', 'Клаустрафобия'),
-		new Riddle ('Что нужно делать, когда видишь зеленого человечка?', 'Переходить улицу'),
-		new Riddle ('Какими нотами можно измерить расстояние?', 'Милями')
+		new Riddle ('What is the name of the fear of Santa Claus?', 'Claustrophobia'),
+		new Riddle ('What should you do when you see a green man?', 'Cross the street'),
+		new Riddle ('What notes can be used to measure the distance?', 'Miles')
 	];
 	Dragon.call(this, 'Rust Dragon', 'rust-dragon', riddles);
 }
 
 function CrystalDragon () {
 	var riddles = [
-		new Riddle ('Без рук, без ног,<br/>А рисовать умеет.', 'Мороз'),
-		new Riddle ('В огне не горит,<br/>В воде не тонет.', 'Лед'),
-		new Riddle ('Не море, не земля,<br/>Корабли не плавают,<br/>А ходить нельзя.', 'Болото')
+		new Riddle ('No arms, no legs, <br/> But he knows how to draw.', 'Frost'),
+		new Riddle ('Doesn\'t burn in fire, <br/> Doesn\'t sink in water.', 'Ice'),
+		new Riddle ('Not the sea, not the land, <br/> Ships don\'t float, <br/> But you can\'t walk.', 'Swamp')
 	];
 	Dragon.call(this, 'Crystal Dragon', 'crystal-dragon', riddles);
 }
 
 function AzureDragon () {
 	var riddles = [
-		new Riddle ('Сколько будет 2+2?', '4'),
-		new Riddle ('Сколько будет 2+2?', '4'),
-		new Riddle ('Сколько будет 2+2?', '4')
+		new Riddle ('2+2?', '4'),
+		new Riddle ('2+2?', '4'),
+		new Riddle ('2+2?', '4')
 	];
 	Dragon.call(this, 'Azure Dragon', 'azure-dragon', riddles);
 }
