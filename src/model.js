@@ -28,7 +28,7 @@ function GoldenDragon () {
 		new Riddle ('Оно всегда перед нами, но видеть его мы не можем. Что это?', 'Будущее'),
 		new Riddle ('Что человек носит два раза в жизни бесплатно, а за третий раз платит?', 'Зубы')
 	];
-	Dragon.call(this, 'Золотой дракон', 'golden-dragon', riddles);
+	Dragon.call(this, 'Golden Dragon', 'golden-dragon', riddles);
 }
 
 function BlackDragon () {
@@ -38,7 +38,7 @@ function BlackDragon () {
 		new Riddle ('Её не увидать, в руках не подержать,<br/>Не услышать ухом, не почуять нюхом.<br/>Царит над небесами, таится в каждой яме.<br/>Она была в начале и будет после всех.<br/>Любую жизнь кончает и убивает смех.', 'Тьма'),
 		new Riddle ('Пожирает всё кругом:<br/>Зверя, птицу, лес и дом.<br/>Сталь сгрызёт, железо сгложет,<br/>Крепкий камень уничтожит,<br/>Власть его всего сильней,<br/>Даже власти королей.', 'Время')
 	];
-	Dragon.call(this, 'Черный дракон', 'black-dragon', riddles);
+	Dragon.call(this, 'Black Dragon', 'black-dragon', riddles);
 }
 
 function FairyDragon () {
@@ -48,7 +48,7 @@ function FairyDragon () {
 		new Riddle ('Лечит маленьких детей,<br/>Лечит птичек и зверей,<br/>Сквозь очки свои глядит<br/>Добрый доктор ...', 'Айболит'),
 		new Riddle ('Возле леса, на опушке<br/>Трое их живет в избушке.<br/>Там три стула и три кружки.<br/>Три кроватки, три подушки.<br/>Угадайте без подсказки,<br/>Кто герои этой сказки?', 'Три медведя')
 	];
-	Dragon.call(this, 'Сказочный дракон', 'fairy-dragon', riddles);
+	Dragon.call(this, 'Fairy Dragon', 'fairy-dragon', riddles);
 }
 
 function RustDragon () {
@@ -57,7 +57,7 @@ function RustDragon () {
 		new Riddle ('Что нужно делать, когда видишь зеленого человечка?', 'Переходить улицу'),
 		new Riddle ('Какими нотами можно измерить расстояние?', 'Милями')
 	];
-	Dragon.call(this, 'Ржавый дракон', 'rust-dragon', riddles);
+	Dragon.call(this, 'Rust Dragon', 'rust-dragon', riddles);
 }
 
 function CrystalDragon () {
@@ -66,7 +66,7 @@ function CrystalDragon () {
 		new Riddle ('В огне не горит,<br/>В воде не тонет.', 'Лед'),
 		new Riddle ('Не море, не земля,<br/>Корабли не плавают,<br/>А ходить нельзя.', 'Болото')
 	];
-	Dragon.call(this, 'Кристалльный дракон', 'crystal-dragon', riddles);
+	Dragon.call(this, 'Crystal Dragon', 'crystal-dragon', riddles);
 }
 
 function AzureDragon () {
@@ -75,7 +75,7 @@ function AzureDragon () {
 		new Riddle ('Сколько будет 2+2?', '4'),
 		new Riddle ('Сколько будет 2+2?', '4')
 	];
-	Dragon.call(this, 'Лазурный дракон', 'azure-dragon', riddles);
+	Dragon.call(this, 'Azure Dragon', 'azure-dragon', riddles);
 }
 
 function makeDragon () {
