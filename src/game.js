@@ -36,7 +36,7 @@ function Game () {
 		[ makeDragon(), makeDragon(), makeDragon(), makeDragon(), makeDragon() ],
 		[ makeDragon(), makeDragon(), makeDragon(), makeDragon(), makeDragon() ],
 		[ makeDragon(), makeDragon(), makeDragon(), makeDragon(), makeDragon() ],
-		[ makeDragon(), makeDragon(), makeDragon(), makeDragon(), new Unit('Финиш', 'camp') ]
+		[ makeDragon(), makeDragon(), makeDragon(), makeDragon(), new Unit('Finish', 'camp') ]
 	];
 	this.x = 0;
 	this.y = 0;
@@ -85,7 +85,7 @@ function render(game, field, dialog, knight) {
 	knight.style.top = game.y * CELL_HEIGHT + 'px';
 		
 	dialog.innerHTML = game.unit.riddle ?
-		'<div><h2>' + game.unit.name + ' спрашивает:</h2>' + game.unit.riddle + '<input name="answer"/><button type="submit">Ответить</button></div>' : '';
+		'<div><h2>' + game.unit.name + ' asks:</h2>' + game.unit.riddle + '<input name="answer"/><button type="submit">Answer</button></div>' : '';
 	
 	field.innerHTML = game.map.reduce(function(html, row) {
 		return html += row.join('');
